@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-vidflow",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/MilenaAmaral/NODEJS-VIDFLOW#readme",
+  "bugs": {
+    "url": "https://github.com/MilenaAmaral/NODEJS-VIDFLOW/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilenaAmaral/NODEJS-VIDFLOW.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
