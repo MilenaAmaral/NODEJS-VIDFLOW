@@ -17,10 +17,11 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api": "json-server --watch backend/videos.json"
+    "api-local": "json-server --watch backend/videos.json",
+    "checar-codigo": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^10.9.1",
+    "eslint": "^8.57.1",
     "json-server": "^0.17.4",
     "prettier": "3.9.6"
   }
