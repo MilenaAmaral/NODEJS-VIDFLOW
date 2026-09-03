@@ -16,15 +16,15 @@ O projeto foi desenvolvido considerando diferentes tamanhos de tela.
 
 ### 💻 Desktop
 
-![VidFlow Desktop](screenshots/vidflow-desktop.png)
+<img src="screenshots/vidflow-desktop.png" alt="VidFlow Desktop" width="900">
 
 ### 📱 Tablet
 
-![VidFlow Tablet](screenshots/vidflow-tablet.png)
+<img src="screenshots/vidflow-tablet.png" alt="VidFlow Tablet" width="500">
 
 ### 📱 Mobile
 
-![VidFlow Mobile](screenshots/vidflow-mobile.png)
+<img src="screenshots/vidflow-mobile.png" alt="VidFlow Mobile" width="300">
 
 ## 🛠️ Tecnologias
 
