@@ -4,7 +4,7 @@ const containerVideos = document.querySelector(".videos__container");
 
 async function buscarEMostrarVideos(){
     try{
-        const busca = await axios.get("http://localhost:3000/videos");
+        const busca = await axios.get("https://nodejs-vidflow-api.onrender.com/videos");
         const videos = busca.data;
 
             videos.forEach((video)=> {
