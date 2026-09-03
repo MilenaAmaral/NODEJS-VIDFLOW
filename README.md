@@ -1,33 +1,39 @@
 # 🎬 VIDFLOW
 
-Projeto desenvolvido durante o curso de **Node.js**, com foco em criação e consumo de APIs, gerenciamento de dependências e integração entre Front-end e Back-end.
+Projeto desenvolvido durante o curso **[Node.js e terminal: dominando o ambiente de desenvolvimento front-end](https://cursos.alura.com.br/classpage/node-js-terminal-ambiente-desenvolvimento-front-end/task/144377)** da Alura.
 
-A aplicação simula uma plataforma de vídeos, permitindo visualizar, pesquisar e filtrar conteúdos por categoria.
+O projeto utiliza o **VidFlow**, uma plataforma de vídeos, como base prática para aprender conceitos do ecossistema Node.js.
 
 ## 🛠️ Tecnologias
 
 * Node.js
-* JSON Server
+* NPM
 * JavaScript
 * Axios
+* JSON Server
 * Vite
 * HTML5
 * CSS3
+* ESLint
+* Prettier
 
-## 📡 API
+## 📚 O que foi praticado
 
-Foi criada uma API utilizando **JSON Server**, posteriormente publicada no **Render**.
+* Configuração do ambiente com Node.js
+* Gerenciamento de pacotes com NPM
+* Scripts no `package.json`
+* Dependências de desenvolvimento e produção
+* Consumo de API com Axios
+* JSON Server
+* Vite
+* Git e GitHub
+* Deploy
+
+## 🚀 Implementação adicional
+
+Como prática além do conteúdo original, a API do projeto foi configurada e publicada no **Render**, utilizando uma URL própria:
 
 🔗 https://nodejs-vidflow-api.onrender.com/videos
-
-## ✨ Funcionalidades
-
-* Listagem de vídeos através da API
-* Pesquisa por título
-* Filtro por categoria
-* Requisições HTTP com Axios
-* API REST com JSON Server
-* Deploy da API no Render
 
 ## 💻 Como executar
 
@@ -42,19 +48,14 @@ Para executar a API localmente:
 npm run api-local
 ```
 
-## 📚 Aprendizados
-
-* Fundamentos do Node.js
-* Criação e consumo de APIs
-* JSON Server
-* Requisições HTTP
-* Axios
-* npm e gerenciamento de dependências
-* Git e GitHub
-* Deploy de API
-
 ## 👩‍💻 Desenvolvido por
 
 **Milena Amaral**
 
 🔗 https://github.com/MilenaAmaral
+
+### 🎓 Curso
+
+**Alura | Node.js e terminal: dominando o ambiente de desenvolvimento front-end**
+
+🔗 https://cursos.alura.com.br/classpage/node-js-terminal-ambiente-desenvolvimento-front-end/task/144377
