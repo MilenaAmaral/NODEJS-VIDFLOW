@@ -2,7 +2,29 @@
 
 Projeto desenvolvido durante o curso **[Node.js e terminal: dominando o ambiente de desenvolvimento front-end](https://cursos.alura.com.br/classpage/node-js-terminal-ambiente-desenvolvimento-front-end/task/144377)** da Alura.
 
-O projeto utiliza o **VidFlow**, uma plataforma de vídeos, como base prática para aprender conceitos do ecossistema Node.js.
+O **VidFlow** é uma plataforma de vídeos utilizada como projeto prático para aplicar conceitos do ecossistema Node.js, gerenciamento de pacotes, consumo de API e ferramentas modernas de desenvolvimento Front-end.
+
+## 🌐 Projeto online
+
+🔗 **[Acessar o VidFlow](https://nodejs-vidflow-ecru.vercel.app/)**
+
+🔗 **[Acessar a API](https://nodejs-vidflow-api.onrender.com/videos)**
+
+## 🖥️ Responsividade
+
+O projeto foi desenvolvido considerando diferentes tamanhos de tela.
+
+### 💻 Desktop
+
+![VidFlow Desktop](screenshots/desktop.png)
+
+### 📱 Tablet
+
+![VidFlow Tablet](screenshots/tablet.png)
+
+### 📱 Mobile
+
+![VidFlow Mobile](screenshots/mobile.png)
 
 ## 🛠️ Tecnologias
 
@@ -24,21 +46,38 @@ O projeto utiliza o **VidFlow**, uma plataforma de vídeos, como base prática p
 * Scripts no `package.json`
 * Dependências de desenvolvimento e produção
 * Consumo de API com Axios
-* JSON Server
-* Vite
+* Utilização do JSON Server
+* Configuração e utilização do Vite
 * Git e GitHub
-* Deploy
+* Build e Deploy
 
-## 🚀 Implementação adicional
+## 🚀 Implementações adicionais
 
-Como prática além do conteúdo original, a API do projeto foi configurada e publicada no **Render**, utilizando uma URL própria:
+Além do conteúdo original do curso, foram realizadas implementações para colocar o projeto em ambiente de produção.
 
-🔗 https://nodejs-vidflow-api.onrender.com/videos
+### API
 
-## 💻 Como executar
+A API foi configurada e publicada no **Render**, utilizando uma URL própria:
+
+🔗 **[VidFlow API](https://nodejs-vidflow-api.onrender.com/videos)**
+
+### Front-end
+
+O Front-end foi configurado para utilizar a API publicada e disponibilizado na **Vercel**.
+
+🔗 **[Acessar o VidFlow](https://nodejs-vidflow-ecru.vercel.app/)**
+
+## 💻 Como executar localmente
+
+Clone o repositório e instale as dependências:
 
 ```bash
 npm install
+```
+
+Inicie o projeto:
+
+```bash
 npm run dev
 ```
 
@@ -52,10 +91,10 @@ npm run api-local
 
 **Milena Amaral**
 
-🔗 https://github.com/MilenaAmaral
+🔗 **[GitHub](https://github.com/MilenaAmaral)**
 
-### 🎓 Curso
+## 🎓 Curso
 
 **Alura | Node.js e terminal: dominando o ambiente de desenvolvimento front-end**
 
-🔗 https://cursos.alura.com.br/classpage/node-js-terminal-ambiente-desenvolvimento-front-end/task/144377
+🔗 **[Acessar curso](https://cursos.alura.com.br/classpage/node-js-terminal-ambiente-desenvolvimento-front-end/task/144377)**

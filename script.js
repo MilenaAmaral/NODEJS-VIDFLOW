@@ -3,8 +3,14 @@ import axios from "axios";
 const containerVideos = document.querySelector(".videos__container");
 
 async function buscarEMostrarVideos(){
+    const urlVideos = import.meta.env.PROD ?   "https://nodejs-vidflow-api.onrender.com/videos"
+    : "http://localhost:3000/videos";
+
+    console.log(import.meta.env.PROD);
+    console.log(urlVideos);
+
     try{
-        const busca = await axios.get("https://nodejs-vidflow-api.onrender.com/videos");
+        const busca = await axios.get(urlVideos);
         const videos = busca.data;
 
             videos.forEach((video)=> {
